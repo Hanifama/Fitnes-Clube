@@ -3,8 +3,8 @@ import AuthLayouts from "../components/Layouts/AuthLayouts"
 
 const LoginPage = ( ) =>{
     return(
-        <AuthLayouts title="Login" desc="ini adalah login">
-            <FormLogin></FormLogin>
+        <AuthLayouts title="Login" desc="ini adalah login" type="login">
+            <FormLogin/>
         </AuthLayouts>
     )
 }
