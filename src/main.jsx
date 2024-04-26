@@ -5,11 +5,12 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import LoginPage from './Pages/login.jsx'
 import RegisterPage from './Pages/register.jsx'
 import ErrorPage from './Pages/errorpage.jsx'
+import Navbar from './components/Elements/Navbar/Index.jsx'
 
 const router = createBrowserRouter([
   {
     path : "/",
-    element : <div>Hallo Harist</div>,
+    element : <Navbar/>,
     errorElement : <ErrorPage/>
   },
   {
