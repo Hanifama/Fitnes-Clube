@@ -1,4 +1,5 @@
 import Button from "../Button/Index"
+import Header from "../Header/Index"
 
 const Navbar = (props) => {    
     const navLinks = 
@@ -60,6 +61,7 @@ const Navbar = (props) => {
                 </Button>
             </div>
         </nav>
+        <Header/>
         </div>
 
       

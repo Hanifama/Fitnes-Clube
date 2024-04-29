@@ -6,10 +6,11 @@ import LoginPage from './Pages/login.jsx'
 import RegisterPage from './Pages/register.jsx'
 import ErrorPage from './Pages/errorpage.jsx'
 import Navbar from './components/Elements/Navbar/Index.jsx'
+import Header from './components/Elements/Header/Index.jsx'
 
 const router = createBrowserRouter([
   {
-    path : "/",
+    path : "/home",
     element : <Navbar/>,
     errorElement : <ErrorPage/>
   },
